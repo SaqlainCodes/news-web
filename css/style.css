@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    width: 650px;
+    height: 1354px;
+    margin: 0 auto;
+    border: 5px solid red;   
+}
+.uni-padding{
+ padding: 0 2%;
+}
+#container{
+    width: 664px;
+    
+}
+
+/*-------------HEADER------------------*/
+
+/*------header top--------*/
+#header-top{
+ width: 100%;
+ float: left;
+ margin: 25px 0 25px 0;
+ box-sizing: border-box;
+
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+#add{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 50%;
+    text-align: right;
+    float: right;
+    margin: 0px;
+}
+#add span{
+    font-weight: bold;
+    float: left;
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+#add a{
+    color: green;
+    text-decoration: none;
+}
+
+/*------header bottom--------*/
+#header-bottom{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: -50px;
+    
+}
+
+.banner p{
+    position: relative;
+    top: 85px;
+    left: 170px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0px;
+    
+}
+.icons img {
+    
+
+}
+.banner span{
+    width: 100%;
+    float: left;
+    text-align: right;
+    position: relative;
+    top:15px;
+    right: 60px;
+}
+.banner span a{
+    margin-left: 3px;
+}
+
+/*-----------CONTENT AREA left------------*/
+.left{
+    width: 400px;
+    float: left;
+    border: 1px solid blue ;
+
+}
+.left a{
+    width: 100%;
+    border-bottom: 1px solid red;
+    color: green;
+    float: left;
+    text-align: right;
+}
+
+/*-----------CONTENT AREA right------------*/
+.right{
+    width: 200px;
+    height: 260px;
+    border: 1px solid green;
+    float: left;
+    margin-left: 10px;
+}
+.right h3{
+    background-color:#8cc140 ;
+    color: white;
+}
+
+/*--------------footer--------------------*/
+#footer{
+    box-sizing: border-box;
+}
