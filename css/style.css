@@ -6,7 +6,7 @@ body{
     width: 650px;
     height: 1354px;
     margin: 0 auto;
-    border: 5px solid red;   
+    border: 2px solid #e2e2e2;   
 }
 .uni-padding{
  padding: 0 2%;
@@ -70,10 +70,7 @@ body{
     margin: 0px;
     
 }
-.icons img {
-    
 
-}
 .banner span{
     width: 100%;
     float: left;
@@ -90,12 +87,11 @@ body{
 .left{
     width: 400px;
     float: left;
-    border: 1px solid blue ;
-
+    padding top: 30px;
 }
 .left a{
     width: 100%;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #e2e2e2;
     color: green;
     float: left;
     text-align: right;
@@ -105,7 +101,7 @@ body{
 .right{
     width: 200px;
     height: 260px;
-    border: 1px solid green;
+    border: 1px solid #e2e2e2;
     float: left;
     margin-left: 10px;
 }
@@ -115,6 +111,11 @@ body{
 }
 
 /*--------------footer--------------------*/
-#footer{
-    box-sizing: border-box;
+.foter{
+    text-align: center;
+    position: relative;
+    right: 23px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
 }
